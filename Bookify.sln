@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3A0AA4D5-1E5B-4ED5-956B-436570BF2026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{1B376458-1D5D-4F30-A2D6-AE4B9118EA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{A223E475-C9D9-47AE-923F-2FF3FB950670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B376458-1D5D-4F30-A2D6-AE4B9118EA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B376458-1D5D-4F30-A2D6-AE4B9118EA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B376458-1D5D-4F30-A2D6-AE4B9118EA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B376458-1D5D-4F30-A2D6-AE4B9118EA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A223E475-C9D9-47AE-923F-2FF3FB950670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A223E475-C9D9-47AE-923F-2FF3FB950670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A223E475-C9D9-47AE-923F-2FF3FB950670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A223E475-C9D9-47AE-923F-2FF3FB950670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B376458-1D5D-4F30-A2D6-AE4B9118EA62} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A223E475-C9D9-47AE-923F-2FF3FB950670} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9455CE48-08E6-49F5-BAFC-23113652B46C}
+	EndGlobalSection
+EndGlobal
