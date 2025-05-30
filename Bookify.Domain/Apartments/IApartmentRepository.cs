@@ -1,5 +1,4 @@
-using Bookify.Domain.Apartments;
-namespace Bookify.Domain.Users;
+namespace Bookify.Domain.Apartments;
 
 public interface IApartmentRepository
 {
