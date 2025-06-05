@@ -46,7 +46,7 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
             .Select(e => e.Entity)
             .SelectMany(entity =>
             {
-                var domainEvents = entity.GetDomainEvents;
+                var domainEvents = entity.GetDomainEvents();
                 entity.ClearDomainEvents();
                 return domainEvents;
             }).ToList();
