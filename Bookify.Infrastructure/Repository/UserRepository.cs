@@ -5,7 +5,7 @@ namespace Bookify.Infrastructure.Repository;
 
 internal sealed class UserRepository : Repository<User>, IUserRepository
 {
-    public UserRepository(DbContext dbContext) : base(dbContext)
+    public UserRepository(ApplicationDbContext dbContext) : base(dbContext)
     {
     }
 }
