@@ -17,7 +17,7 @@ internal abstract class Repository<T> where T : Entity
         return await _dbContext.Set<T>().FirstOrDefaultAsync(e => e.Id == id, cancellationToken);
     }
 
-    public void Add(T entity)
+    public virtual void Add(T entity)
     {
         _dbContext.Add(entity);
     }
