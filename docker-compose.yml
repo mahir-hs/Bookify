@@ -58,6 +58,17 @@ services:
         condition: service_healthy
     networks:
         - bookify-net
+  bookify-seq:
+    image: datalust/seq:latest
+    container_name: Bookify.Seq
+    environment:
+        ACCEPT_EULA: Y
+        SEQ_FIRSTRUN_ADMINPASSWORD: admin
+    ports:
+    - "5341:5341"
+    -  8081:80
+    networks:
+    - bookify-net
 
 volumes:
   keycloak_data:
