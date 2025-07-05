@@ -22,6 +22,6 @@ public static class ApplicationBuilderExtensions
 
     public static IApplicationBuilder UseRequestContextLogging(this IApplicationBuilder app)
     {
-        return app.UseMiddleware<RequestContextLoggingMiddleware>();
+        return app.UseMiddleware<RequestContextLoggingMiddleware >();
     }
 }

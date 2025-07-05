@@ -69,6 +69,16 @@ services:
     -  8081:80
     networks:
     - bookify-net
+   
+  bookify-redis:
+    image: redis:latest
+    container_name: Bookify.Redis
+    restart: always
+    ports:
+      - "6379:6379"
+    networks:
+      - bookify-net
+  
 
 volumes:
   keycloak_data:
